@@ -47,8 +47,9 @@ It helps users generate professional, ATS-friendly resumes by enhancing only the
 | **GenAI SDK (2026)**  | Latest Gemini integration            |
 | **python-dotenv**     | Secure environment variable handling |
 
-📂 Project Structure
+## 📂 Project Structure
 
+```text
 SmartResume-Generator/
 │
 ├── app.py                 # Streamlit UI
@@ -57,6 +58,8 @@ SmartResume-Generator/
 ├── requirements.txt       # Project dependencies
 ├── .env.example           # Environment variable template
 └── README.md              # Project documentation
+```
+
 
 
 🔐 Environment Setup
