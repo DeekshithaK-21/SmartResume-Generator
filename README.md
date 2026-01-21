@@ -1,54 +1,70 @@
-# SmartResume Generator 🧠📄
+🧠 SmartResume Generator 📄
 
-An AI-powered resume generator built using **Streamlit** and **Google Gemini (2026 GenAI SDK)**.  
-The application helps users create **ATS-friendly, professional resumes** by combining structured user input with AI-enhanced wording — without inventing facts.
+AI-Powered | ATS-Friendly | Streamlit App
 
----
+SmartResume Generator is an AI-powered resume creation tool built using Streamlit and the Google Gemini (2026 GenAI SDK).
+It helps users generate professional, ATS-friendly resumes by enhancing only the provided information — no fake skills, no invented experience.
 
-## 🚀 Features
+✨ Why SmartResume Generator?
 
-- ✅ AI-enhanced resume generation (Google Gemini)
-- ✅ 2026-ready GenAI SDK (`from google import genai`)
-- ✅ Multiple work experiences & education entries
-- ✅ Separate **Achievements** section
-- ✅ ATS-friendly structured output
-- ✅ Clean and simple UI (Streamlit)
-- ✅ Free-tier compatible model selection
-- ✅ Graceful handling of AI overloads
-- ✅ Session-state based dynamic forms
+🚫 No hallucinated content
 
----
+🎯 Optimized for Applicant Tracking Systems (ATS)
 
-## 🛠️ Tech Stack
+🧑‍💼 Ideal for students, freshers, and professionals
 
-- **Python**
-- **Streamlit**
-- **Google Gemini API (GenAI SDK – 2026)**
-- **python-dotenv**
+⚡ Fast, clean, and easy-to-use UI
 
----
+🚀 Key Features
 
-## 📂 Project Structure
+✅ AI-Enhanced Resume Writing (Google Gemini)
 
+✅ Uses 2026 GenAI SDK → from google import genai
+
+✅ Supports multiple work experiences
+
+✅ Supports multiple education entries
+
+✅ Dedicated Achievements section
+
+✅ Structured & ATS-friendly output
+
+✅ Simple, clean Streamlit UI
+
+✅ Free-tier compatible model selection
+
+✅ Handles AI overloads & failures gracefully
+
+✅ Dynamic forms using Streamlit session state
+
+🛠️ Tech Stack
+Technology	Purpose
+Python	Core programming language
+Streamlit	Frontend UI
+Google Gemini API	AI resume enhancement
+GenAI SDK (2026)	Latest Gemini integration
+python-dotenv	Secure environment variable handling
+📂 Project Structure
 SmartResume-Generator/
 │
-├── app.py # Streamlit UI
-├── resume_generator.py # Gemini integration (2026 SDK)
-├── prompt_templates.py # Prompt engineering logic
-├── requirements.txt # Dependencies
-├── .env.example # Environment variable template
-└── README.md
+├── app.py                 # Streamlit UI
+├── resume_generator.py    # Gemini integration (2026 SDK)
+├── prompt_templates.py    # Prompt engineering logic
+├── requirements.txt       # Project dependencies
+├── .env.example           # Environment variable template
+└── README.md              # Project documentation
 
-## 🔐 Environment Setup
+🔐 Environment Setup
 
-Create a `.env` file in the project root:
+Create a .env file in the project root directory:
 
 GEMINI_API_KEY=your_api_key_here
-⚠️ Do NOT commit .env to GitHub
+
+⚠️ Important:
+Never commit the .env file to GitHub. It contains sensitive API keys.
 
 ▶️ How to Run the Project (Windows)
-bash
-# Navigate to project
+# Navigate to project directory
 cd SmartResume-Generator
 
 # Create virtual environment
@@ -60,6 +76,29 @@ venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 
-# Run the app
+# Run the application
 streamlit run app.py
-The app will open automatically in your browser.
+
+📌 The app will automatically open in your default web browser.
+
+📌 Use Cases
+
+🎓 Students building their first resume
+
+💼 Professionals updating resumes quickly
+
+🧪 Mini-project for GenAI + Streamlit
+
+📄 ATS-optimized resume generation demo
+
+🔮 Future Enhancements
+
+📄 Resume export as PDF / DOCX
+
+🎨 Multiple resume templates
+
+🧠 Skill-gap suggestions (non-intrusive)
+
+🌐 Multi-language resume support
+
+📊 Resume ATS score analyzer
