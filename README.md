@@ -38,13 +38,17 @@ It helps users generate professional, ATS-friendly resumes by enhancing only the
 ✅ Dynamic forms using Streamlit session state
 
 🛠️ Tech Stack
-Technology	Purpose
-Python	Core programming language
-Streamlit	Frontend UI
-Google Gemini API	AI resume enhancement
-GenAI SDK (2026)	Latest Gemini integration
-python-dotenv	Secure environment variable handling
+
+| Technology            | Purpose                              |
+| --------------------- | ------------------------------------ |
+| **Python**            | Core programming language            |
+| **Streamlit**         | Frontend user interface              |
+| **Google Gemini API** | AI-based resume enhancement          |
+| **GenAI SDK (2026)**  | Latest Gemini integration            |
+| **python-dotenv**     | Secure environment variable handling |
+
 📂 Project Structure
+
 SmartResume-Generator/
 │
 ├── app.py                 # Streamlit UI
@@ -53,6 +57,7 @@ SmartResume-Generator/
 ├── requirements.txt       # Project dependencies
 ├── .env.example           # Environment variable template
 └── README.md              # Project documentation
+
 
 🔐 Environment Setup
 
